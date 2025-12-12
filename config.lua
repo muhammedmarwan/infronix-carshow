@@ -1,65 +1,101 @@
-ShowRange = 1000
+ShowRange = 5000
 
 DoorLock = true
 
 carInvincible = true 
 
 Cars = {
+    --chilad
     {
-        pos = vec(-1168.04, -1732.64, 3.91), --super 4 back
-        heading = 216.51,
-        model = 'meteoc1',
+        pos = vec(457.5392, 5385.3574, 672.3835),
+        heading = 358.3874,
+        model = 'xplod2024',
         spin = false,
         plate = "DEALER"
     },
     {
-        pos = vec(-1163.68, -1729.82, 3.91), --super 5 back
-        heading = 217.09,
-        model = 'meteoc2',
+        pos = vec(493.2040, 5394.7109, 671.0193),
+        heading = 270.5229,
+        model = 'meteoc6',
         spin = false,
         plate = "DEALER"
     },
     {
-        pos = vec(-1160.53, -1726.68, 3.91), --super 6 back
-        heading = 218.01,
-        model = 'meteoc3',
+        pos = vec(187.3528, 5447.5562, 606.1248),
+        heading = 353.8499,
+        model = 'xplod2024',
         spin = false,
         plate = "DEALER"
     },
-    --shitboxes
+
+    --casino
     {
-        pos = vec(-1144.05, -1738.40, 3.91), --shitbox 1
-        heading = 36.43,
-        model = 'meteoc11',
-        spin = false,
-        plate = "DEALER"
-    },
-    {
-        pos = vec(-1147.89, -1740.68, 3.91), --shitbox 2 
-        heading = 37.42,
-        model = 'meteoc8',
+        pos = vec(946.0795, 157.3076, 81.6453),
+        heading =  79.9899,
+        model = 'coach',
         spin = false,
         plate = "DEALER"
     },
     {
-        pos = vec(-1151.06, -1743.17, 3.91), --shitbox 3
-        heading = 35.35,
-        model = 'meteoc4',
+        pos = vec(950.6893, 162.6775, 81.6609),
+        heading =  80.6939,
+        model = 'coach',
         spin = false,
         plate = "DEALER"
     },
+
+    --airport --terminal inside
     {
-        pos = vec(-1154.68, -1745.22, 3.91), --shitbox 4 
-        heading = 34.59,
-        model = 'meteoc5',
+        pos = vec(-1220.2041, -2337.3442, 13.9408),
+        heading = 240.5877,
+        model = 'airbus',
         spin = false,
-        plate = "DEALER"
+        plate = "AIRPORT1"
     },
     {
-        pos = vec(-1158.14, -1747.64, 3.91), --shitbox 5 
-        heading = 33.87,
-        model = 'oycdefender',
+        pos = vec(-1247.9565, -2279.7935, 15.1136),
+        heading = 240.1078,
+        model = 'miljet',
         spin = false,
-        plate = "DEALER"
-    }
+        plate = "AIR"
+    },
+    {
+        pos = vec(-1239.1465, -2233.4924, 15.1132),
+        heading = 240.5591,
+        model = 'titan',
+        spin = false,
+        plate = "AIR"
+    },
+
+    --airport --main terminal
+    {
+        pos = vec(-1019.4019, -2738.1069, 20.0839),
+        heading =  241.0404,
+        model = 'airbus',
+        spin = false,
+        plate = "AIRPORT2"
+    },
+    {
+        pos = vec(-1045.8416, -2723.8530, 19.5274),
+        heading =  240.1313,
+        model = 'tampa',
+        spin = false,
+        plate = "tampa"
+    },
+
+    --cenemas
+    {
+        pos = vec(328.0761, 163.5819, 102.8012),
+        heading = 69.8313,
+        model = 'windsor',
+        spin = false,
+        plate = "333"
+    },
+    {
+        pos = vec(340.0906, 158.8825, 102.5420),
+        heading = 68.8133,
+        model = 'elegy',
+        spin = false,
+        plate = "GTS"
+    },
 }

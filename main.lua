@@ -1,5 +1,5 @@
 local ped
-local ShowRange = 50.0 -- adjust if needed
+local ShowRange = 500.0 -- adjust if needed
 
 -- Update ped every 5 seconds
 Citizen.CreateThread(function()

@@ -6,5 +6,3 @@ client_scripts {
 	"main.lua",
 	"config.lua"
 }
-
---作者DC 中汁龍#7777
